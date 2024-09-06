@@ -1,9 +1,9 @@
 import { useState } from 'react';
 
 const RecipeAuthor = () => {
-   let authorLink = "";
-   let authorPhoto = "";
-   let authorName = "";
+   let authorLink = "https://www.saltandlavender.com/";
+   let authorPhoto = "https://i.kym-cdn.com/entries/icons/original/000/020/115/idiot_sandwich.jpg";
+   let authorName = "Smart Sandwich";
 
    return (
       <div>
@@ -17,7 +17,7 @@ const RecipeAuthor = () => {
 }
 
 const RecipeIngredients = () => {
-   const ingredients = [];
+   const ingredients = ["Salami", "American Cheese", "Bacon", "Turkey", "Mayo"];
    return(
       <div>
          <h3>Recipe Ingredients</h3>
@@ -49,7 +49,7 @@ const RecipeDescription = () => {
 
 const RecipePhoto = () => {
    return (
-      <img src="" alt="" className="imageUpdates"/>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD_gE6N-7D2UAXf63KIUvL9zbKeHnHTF2JNw&usqp=CAU" alt="text" className="imageUpdates"/>
    );
 }
 
